@@ -31,6 +31,11 @@ public abstract class Scheduler extends Action {
 	/** A reference to the Action which will be progressed in the next call of {@link #doStep()} */
 	protected Action mCurrAct;
 	
+	/**
+	 * Constructor with an undefined number of parameters.
+	 * @param actions The Actions that the Scheduler has to handle.
+	 */
+	
 	public Scheduler(Action ... actions) {
 		mActions = new ArrayList<Action>(Arrays.asList(actions));
 		mIt = mActions.iterator();
