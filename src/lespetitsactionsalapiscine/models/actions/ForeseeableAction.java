@@ -16,6 +16,7 @@ public class ForeseeableAction extends Action {
 	 * @param nb The number of steps necessary to finish the Action.
 	 */
 	public ForeseeableAction(int nb) {
+		super();
 		mNbSteps = nb;
 	}
 	

@@ -12,6 +12,10 @@ public abstract class Action {
 	/** Template method called by {@link #doStep()}. */
 	protected abstract void step();
 	
+	public Action() {
+		mState = ActionState.READY;
+	}
+	
 	/**
 	 * Progresses the Action.
 	 * @throws ActionFinishedException if Action is already finished.
