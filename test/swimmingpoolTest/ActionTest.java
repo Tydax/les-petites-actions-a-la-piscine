@@ -1,7 +1,9 @@
+package swimmingpoolTest;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 import lespetitsactionsalapiscine.models.actions.Action;
+import lespetitsactionsalapiscine.models.actions.ActionFinishedException;
 import lespetitsactionsalapiscine.models.actions.ActionState;
 
 import org.junit.Test;
@@ -36,4 +38,5 @@ public abstract class ActionTest {
 			action.doStep();
 		assertEquals(ActionState.FINISHED,action.getState());
 		}
+	
 }
