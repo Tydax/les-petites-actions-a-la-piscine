@@ -26,16 +26,17 @@ public abstract class Action {
 		}
 		
 		step();
+		
+		if(isFinished()) {
+			mState = ActionState.FINISHED;
+		}
 	}
 	
 	/** Gets whether the Action is finished or not.
 	 * @return <code>true</code> if the Action is finished ;
 	 * 			<code>false</code> else.
 	 */
-	public boolean isFinished() {
-		// TODO Implement isFinished.
-		return false;
-	}
+	public abstract boolean isFinished();
 	
 	/**
 	 * Gets the current state of the Action.
