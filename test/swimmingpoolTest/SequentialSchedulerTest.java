@@ -2,9 +2,6 @@ package swimmingpoolTest;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-
-import java.util.Arrays;
-
 import lespetitsactionsalapiscine.models.actions.Action;
 import lespetitsactionsalapiscine.models.actions.ForeseeableAction;
 import lespetitsactionsalapiscine.models.actions.schedulers.Scheduler;
@@ -16,7 +13,7 @@ public class SequentialSchedulerTest extends SchedulerTest {
 
 	@Override
 	public Scheduler createScheduler(Action ... actions) {
-		return new SequentialScheduler (Arrays.asList(actions)); 
+		return new SequentialScheduler(actions); 
 	}
 	
 	

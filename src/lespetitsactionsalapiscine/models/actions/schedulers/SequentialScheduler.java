@@ -12,8 +12,22 @@ import lespetitsactionsalapiscine.models.actions.Action;
  */
 public class SequentialScheduler extends Scheduler {
 
+	/**
+	 * Constructor with an undefined number of parameters.
+	 * @param actions The Actions that the Scheduler has to handle.
+	 */
+	public SequentialScheduler(Action ... actions) {
+		super(actions);
+	}
+	
 	@Override
 	protected void step() {
 		// TODO implement
+	}
+
+	@Override
+	protected Action nextAction() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

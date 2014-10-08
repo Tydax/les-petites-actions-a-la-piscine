@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 
 import lespetitsactionsalapiscine.models.actions.Action;
+import lespetitsactionsalapiscine.models.actions.ActionFinishedException;
 import lespetitsactionsalapiscine.models.actions.ActionState;
 
 /**
@@ -31,26 +32,35 @@ public abstract class Scheduler extends Action {
 	/** A reference to the Action which will be progressed in the next call of {@link #doStep()} */
 	protected Action mCurrAct;
 	
+	
 	/**
 	 * Constructor with an undefined number of parameters.
 	 * @param actions The Actions that the Scheduler has to handle.
 	 */
-	
 	public Scheduler(Action ... actions) {
 		mActions = new ArrayList<Action>(Arrays.asList(actions));
 		mIt = mActions.iterator();
 	}
 	
+	/**
+	 * Template method to get the next Action in the Scheduler.
+	 * @return The next Action to iterate.
+	 */
+	protected abstract Action nextAction();
+	
 	@Override
 	protected void step() {
-		// TODO Auto-generated method stub
-
+		try {
+			mCurrAct.doStep();
+		}
+		catch(ActionFinishedException afExc) {
+			mCurrAct = nextAction();
+		}
 	}
 
 	@Override
 	public boolean isFinished() {
-		// TODO Auto-generated method stub
-		return false;
+		return !mIt.hasNext() && mCurrAct == null;
 	}
 
 }

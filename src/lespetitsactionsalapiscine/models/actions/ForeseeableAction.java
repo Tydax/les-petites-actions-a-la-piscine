@@ -21,14 +21,12 @@ public class ForeseeableAction extends Action {
 	
 	@Override
 	protected void step() {
-		// TODO Auto-generated method stub
-
+		mNbSteps--;
 	}
 
 	@Override
 	public boolean isFinished() {
-		// TODO Auto-generated method stub
-		return false;
+		return mNbSteps == 0;
 	}
 
 }
