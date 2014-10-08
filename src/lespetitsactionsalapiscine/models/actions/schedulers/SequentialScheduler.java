@@ -27,7 +27,6 @@ public class SequentialScheduler extends Scheduler {
 
 	@Override
 	protected Action nextAction() {
-		// TODO Auto-generated method stub
-		return null;
+		return mIt.next();
 	}
 }

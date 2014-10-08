@@ -38,8 +38,13 @@ public abstract class Scheduler extends Action {
 	 * @param actions The Actions that the Scheduler has to handle.
 	 */
 	public Scheduler(Action ... actions) {
+		super();
 		mActions = new ArrayList<Action>(Arrays.asList(actions));
 		mIt = mActions.iterator();
+		
+		if(isFinished()) {
+			mCurrAct = mIt.next();
+		}
 	}
 	
 	/**
@@ -60,7 +65,7 @@ public abstract class Scheduler extends Action {
 
 	@Override
 	public boolean isFinished() {
-		return !mIt.hasNext() && mCurrAct == null;
+		return mActions.isEmpty();
 	}
 
 }
