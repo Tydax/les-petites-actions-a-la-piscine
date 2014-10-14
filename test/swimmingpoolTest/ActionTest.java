@@ -2,9 +2,9 @@ package swimmingpoolTest;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
-import lespetitsactionsalapiscine.models.actions.Action;
-import lespetitsactionsalapiscine.models.actions.ActionFinishedException;
-import lespetitsactionsalapiscine.models.actions.ActionState;
+import lespetitesactionsalapiscine.models.actions.Action;
+import lespetitesactionsalapiscine.models.actions.ActionFinishedException;
+import lespetitesactionsalapiscine.models.actions.ActionState;
 
 import org.junit.Test;
 

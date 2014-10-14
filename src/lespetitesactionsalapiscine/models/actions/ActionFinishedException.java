@@ -1,4 +1,4 @@
-package lespetitsactionsalapiscine.models.actions;
+package lespetitesactionsalapiscine.models.actions;
 
 /**
  * ActionFinishedException represents an Exception where we are trying to progress an {@link Action}

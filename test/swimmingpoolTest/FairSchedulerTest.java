@@ -2,10 +2,10 @@ package swimmingpoolTest;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
-import lespetitsactionsalapiscine.models.actions.Action;
-import lespetitsactionsalapiscine.models.actions.ForeseeableAction;
-import lespetitsactionsalapiscine.models.actions.schedulers.FairScheduler;
-import lespetitsactionsalapiscine.models.actions.schedulers.Scheduler;
+import lespetitesactionsalapiscine.models.actions.Action;
+import lespetitesactionsalapiscine.models.actions.ForeseeableAction;
+import lespetitesactionsalapiscine.models.actions.schedulers.FairScheduler;
+import lespetitesactionsalapiscine.models.actions.schedulers.Scheduler;
 
 import org.junit.Test;
 

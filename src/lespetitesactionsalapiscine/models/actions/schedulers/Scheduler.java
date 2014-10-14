@@ -1,12 +1,12 @@
-package lespetitsactionsalapiscine.models.actions.schedulers;
+package lespetitesactionsalapiscine.models.actions.schedulers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
-import lespetitsactionsalapiscine.models.actions.Action;
-import lespetitsactionsalapiscine.models.actions.ActionFinishedException;
-import lespetitsactionsalapiscine.models.actions.ActionState;
+import lespetitesactionsalapiscine.models.actions.Action;
+import lespetitesactionsalapiscine.models.actions.ActionFinishedException;
+import lespetitesactionsalapiscine.models.actions.ActionState;
 
 /**
  * The Scheduler class describes a Scheduler which handles multiple Action at a time.

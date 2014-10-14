@@ -1,7 +1,7 @@
 package swimmingpoolTest;
 import static org.junit.Assert.assertTrue;
-import lespetitsactionsalapiscine.models.actions.Action;
-import lespetitsactionsalapiscine.models.actions.ForeseeableAction;
+import lespetitesactionsalapiscine.models.actions.Action;
+import lespetitesactionsalapiscine.models.actions.ForeseeableAction;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package lespetitsactionsalapiscine.models.actions;
+package lespetitesactionsalapiscine.models.actions;
 
 /**
  * Action class describes an action which progresses as we use the 

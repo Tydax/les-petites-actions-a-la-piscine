@@ -1,4 +1,4 @@
-package lespetitsactionsalapiscine.models.actions;
+package lespetitesactionsalapiscine.models.actions;
 
 /**
  * ForeseeableAction describes an Action which progression is defined by a specified number of steps.

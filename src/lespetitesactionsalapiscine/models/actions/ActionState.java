@@ -1,4 +1,4 @@
-package lespetitsactionsalapiscine.models.actions;
+package lespetitesactionsalapiscine.models.actions;
 
 /**
  * Enum describing the different states of an {@link Action}.

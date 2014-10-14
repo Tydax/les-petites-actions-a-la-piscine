@@ -1,6 +1,6 @@
-package lespetitsactionsalapiscine.models.actions.schedulers;
+package lespetitesactionsalapiscine.models.actions.schedulers;
 
-import lespetitsactionsalapiscine.models.actions.Action;
+import lespetitesactionsalapiscine.models.actions.Action;
 
 /**
  * SequentialScheduler handles multiple Action by finishing them one at time.<br>
