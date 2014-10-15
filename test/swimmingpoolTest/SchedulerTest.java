@@ -21,7 +21,7 @@ public abstract class SchedulerTest extends ActionTest {
 	
 	@Override
 	protected Action createAction() {
-	return createScheduler (new OneStepAction());
+	return createScheduler (new OneStepAction(), new OneStepAction());
 	}
 
 	@Test 

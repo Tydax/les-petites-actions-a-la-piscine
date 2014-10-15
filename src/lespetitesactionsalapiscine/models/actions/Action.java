@@ -9,8 +9,9 @@ public abstract class Action {
 	/** Field describing the current state of the Action. */
 	protected ActionState mState;
 	
-	/** Template method called by {@link #doStep()}. */
-	protected abstract void step();
+	/** Template method called by {@link #doStep()}. 
+	 * @throws ActionFinishedException TODO*/
+	protected abstract void step() throws ActionFinishedException;
 	
 	public Action() {
 		mState = ActionState.READY;

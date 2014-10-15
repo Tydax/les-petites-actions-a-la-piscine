@@ -19,14 +19,11 @@ public class SequentialScheduler extends Scheduler {
 	public SequentialScheduler(Action ... actions) {
 		super(actions);
 	}
-	
-	@Override
-	protected void step() {
-		// TODO implement
-	}
 
 	@Override
 	protected Action nextAction() {
-		return mIt.next();
+		return mCurrAct.isFinished()
+			 ? mIt.next()
+			 : mCurrAct;
 	}
 }

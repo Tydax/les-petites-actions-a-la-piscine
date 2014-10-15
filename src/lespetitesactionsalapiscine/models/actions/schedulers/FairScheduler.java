@@ -1,5 +1,7 @@
 package lespetitesactionsalapiscine.models.actions.schedulers;
 
+import java.util.NoSuchElementException;
+
 import lespetitesactionsalapiscine.models.actions.Action;
 
 /**
@@ -22,13 +24,19 @@ public class FairScheduler extends Scheduler {
 	}
 	
 	@Override
-	protected void step() {
-		// TODO implement
-	}
-
-	@Override
 	protected Action nextAction() {
-		// TODO Auto-generated method stub
-		return null;
+		if(!mIt.hasNext()) {
+			mIt = mActions.iterator();
+		}
+		
+		Action res = null;
+		
+		try {
+			res = mIt.next();
+		}
+		catch(NoSuchElementException nseExc) {
+			System.out.println("coucou");
+		}
+		return res;
 	}
 }

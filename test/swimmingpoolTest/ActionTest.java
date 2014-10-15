@@ -21,11 +21,11 @@ public abstract class ActionTest {
 				action.doStep();
 			}
 			catch (ActionFinishedException e){
-				fail("action was not supposed to be finished, we just checked");
+				fail("Action was not supposed to be finished, we just checked");
 			}
 		}
 		assertTrue(action.isFinished());
-		action.doStep(); //this sould throw the ActionFinishedException
+		action.doStep(); // This should throw the ActionFinishedException
 	}
 	
 	@Test 

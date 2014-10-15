@@ -21,7 +21,7 @@ public class ForeseeableAction extends Action {
 	}
 	
 	@Override
-	protected void step() {
+	protected void step() throws ActionFinishedException {
 		mNbSteps--;
 	}
 

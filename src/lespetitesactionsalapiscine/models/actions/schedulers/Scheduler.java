@@ -42,7 +42,7 @@ public abstract class Scheduler extends Action {
 		mActions = new ArrayList<Action>(Arrays.asList(actions));
 		mIt = mActions.iterator();
 		
-		if(isFinished()) {
+		if(!isFinished()) {
 			mCurrAct = mIt.next();
 		}
 	}
@@ -54,13 +54,18 @@ public abstract class Scheduler extends Action {
 	protected abstract Action nextAction();
 	
 	@Override
-	protected void step() {
-		try {
-			mCurrAct.doStep();
+	protected void step() throws ActionFinishedException {
+		mCurrAct.doStep();
+		
+		// Check if current action is finished to keep our list of actions clean
+		if(mCurrAct.isFinished()) {
+			mIt.remove();
 		}
-		catch(ActionFinishedException afExc) {
-			mCurrAct = nextAction();
-		}
+		
+		// Get next action if the Scheduler is not empty 
+		mCurrAct = !isFinished()
+				 ? nextAction()
+				 : null; // (if it is, just set to null so that the action can get garbage-collected)
 	}
 
 	@Override
