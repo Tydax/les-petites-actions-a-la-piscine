@@ -47,6 +47,7 @@ public abstract class ResourcePool<R extends Resource> {
 			throw new NoSuchElementException("No resource available");
 		else {
 			rs = mAvailableRes.remove();
+			mProvidedRes.add(rs);
 			return rs;
 		}
 	}
