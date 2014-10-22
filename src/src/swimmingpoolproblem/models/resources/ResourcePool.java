@@ -4,19 +4,24 @@ import java.util.LinkedList;
 import java.util.NoSuchElementException;
 
 /**
- * The ResourcePool class describe a pool containing some Resources which can be take from this pool and then free it back to the pool    
+ * The ResourcePool class describes a pool containing some
+ * Resources which can be taken from this pool and then freed back to the pool.
  * 
  * @author Armand BOUR
  * @author Antoine PETIT
  */
 public abstract class ResourcePool<R extends Resource> {
 
-	/** The list of the resources which can be take from the pool */
+	/** The list of resources which can be taken from the pool. */
 	protected LinkedList<R> mAvailableRes;
 	
-	/** The list of the resources which are borrow at the current time */
+	/** The list of resources which are borrowed at the current time. */
 	protected LinkedList<R> mProvidedRes;
 
+	/**
+	 * Constructor taking the number of Resources assigned to the pool as a parameter.
+	 * @param nbResources The number of Resources to assign to the pool.
+	 */
 	public ResourcePool(int nbResources) {
 		mAvailableRes = new LinkedList<R>();
 		mProvidedRes = new LinkedList<R>();
@@ -25,12 +30,16 @@ public abstract class ResourcePool<R extends Resource> {
 		}
 	}
 
+	/**
+	 * Factory method to initialise a Resource.
+	 * @return A new Resource of type R.
+	 */
 	protected abstract R createResource();
 
 	/**
-	 * Provide a resource in the pool if there is at least one resource in the pool
-	 * @return The Resource if possible 
-	 * @throws NoSuchElementException
+	 * Provides a resource in the pool if there is at least a free one.
+	 * @return A Resource.
+	 * @throws NoSuchElementException If no Resource are available at the moment.
 	 */
 	public R provideResource() throws NoSuchElementException {
 		R rs;
@@ -43,9 +52,9 @@ public abstract class ResourcePool<R extends Resource> {
 	}
 
 	/**
-	 * Free a resource which was borrow from the pool, if not throw the exception
-	 * @param resource the resource which who want to free back in the pool
-	 * @throws IllegalArgumentException
+	 * Frees the specified Resource and put it back in the pool.
+	 * @param resource The Resource to free.
+	 * @throws IllegalArgumentException If the Resource was not borrowed from this pool.
 	 */
 	public void freeResource(R resource) throws IllegalArgumentException {
 		if (mProvidedRes.remove(resource)) {

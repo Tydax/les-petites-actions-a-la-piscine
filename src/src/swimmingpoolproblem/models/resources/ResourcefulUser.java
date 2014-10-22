@@ -1,18 +1,39 @@
 package src.swimmingpoolproblem.models.resources;
 
+/**
+ * ResourcefulUser describes a user taking Resource from a pool.
+ * @author Armand BOUR
+ * @author Antoine PETIT
+ *
+ * @param <R> The type of Resource taken by the user.
+ */
 public class ResourcefulUser<R extends Resource> {
 
-	protected R resource;
+	/** The resource taken by the user. May be <code>null</code> if no Resource
+	 * was assigned to the user.*/
+	protected R mResource;
 
+	/** 
+	 * Gets a reference to the Resource taken by the user.
+	 * @return The Resource assigned to the user.<br>
+	 * 			<code>null</code> if none was assigned.
+	 */
 	public R getResource() {
-		return resource;
+		return mResource;
 	}
 
-	public void setReousrce(R resource) {
-		this.resource = resource;
+	/**
+	 * Assigns a Resource to the user. 
+	 * @param resource The Resource to assign to the user.
+	 */
+	public void setResource(R resource) {
+		this.mResource = resource;
 	}
 
+	/**
+	 * Sets the Resource of the user to null.
+	 */
 	public void resetResource() {
-		this.resource = null;
+		this.mResource = null;
 	}
 }

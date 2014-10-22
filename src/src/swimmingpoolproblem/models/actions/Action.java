@@ -1,7 +1,8 @@
 package src.swimmingpoolproblem.models.actions;
 
 /**
- * Action class describes an action which progresses as we use the 
+ * Action class describes an action which progresses as we use the
+ * {@link #doStep()} method. 
  * @author Armand BOUR
  * @author Antoine PETIT
  */
@@ -10,7 +11,7 @@ public abstract class Action {
 	protected ActionState mState;
 	
 	/** Template method called by {@link #doStep()}. 
-	 * @throws ActionFinishedException TODO*/
+	 * @throws ActionFinishedException When the Action is finished.*/
 	protected abstract void step() throws ActionFinishedException;
 	
 	public Action() {
