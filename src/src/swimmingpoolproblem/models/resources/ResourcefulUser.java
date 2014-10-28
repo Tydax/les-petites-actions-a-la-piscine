@@ -9,9 +9,14 @@ package src.swimmingpoolproblem.models.resources;
  */
 public class ResourcefulUser<R extends Resource> {
 
+	
 	/** The resource taken by the user. May be <code>null</code> if no Resource
 	 * was assigned to the user.*/
 	protected R mResource;
+
+	public ResourcefulUser() {
+		mResource =null;		
+	}
 
 	/** 
 	 * Gets a reference to the Resource taken by the user.

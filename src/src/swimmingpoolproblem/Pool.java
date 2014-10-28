@@ -1,8 +1,10 @@
 package src.swimmingpoolproblem;
 
 import src.swimmingpoolproblem.models.actions.ActionFinishedException;
+import src.swimmingpoolproblem.models.actions.Swimmer;
 import src.swimmingpoolproblem.models.actions.schedulers.FairScheduler;
 import src.swimmingpoolproblem.models.resources.BasketPool;
+import src.swimmingpoolproblem.models.resources.CubiclePool;
 
 public class Pool {
 

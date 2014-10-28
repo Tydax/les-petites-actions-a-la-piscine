@@ -1,6 +1,7 @@
 package src.swimmingpoolproblem.models.resources;
 
 import java.util.LinkedList;
+import java.util.List;
 import java.util.NoSuchElementException;
 
 /**
@@ -13,10 +14,10 @@ import java.util.NoSuchElementException;
 public abstract class ResourcePool<R extends Resource> {
 
 	/** The list of resources which can be taken from the pool. */
-	protected LinkedList<R> mAvailableRes;
+	protected List<R> mAvailableRes;
 	
 	/** The list of resources which are borrowed at the current time. */
-	protected LinkedList<R> mProvidedRes;
+	protected List<R> mProvidedRes;
 
 	/**
 	 * Constructor taking the number of Resources assigned to the pool as a parameter.
@@ -46,7 +47,7 @@ public abstract class ResourcePool<R extends Resource> {
 		if (mAvailableRes.isEmpty())
 			throw new NoSuchElementException("No resource available");
 		else {
-			rs = mAvailableRes.remove();
+			rs = mAvailableRes.remove(0);
 			mProvidedRes.add(rs);
 			return rs;
 		}
