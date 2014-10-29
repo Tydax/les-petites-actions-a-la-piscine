@@ -73,10 +73,9 @@ public abstract class Scheduler extends Action {
 		}
 
 		// Get next action if the Scheduler is not empty
-		mCurrAct = !isFinished() ? nextAction() : null; // (if it is, just set
-														// to null so that the
-														// action can get
-														// garbage-collected)
+		mCurrAct = !isFinished() ? nextAction() : null; /*
+												(if it is, just set to null so that the
+												action can get garbage-collected) */
 	}
 
 	@Override
@@ -84,7 +83,9 @@ public abstract class Scheduler extends Action {
 		return mActions.isEmpty();
 	}
 
-	public void addAction(Action nAction) {
-		mActions.add(nAction);
+	public void addAction(Action action) {
+		mActions.add(action);
+		mIt = mActions.iterator();
+		mCurrAct = mIt.next();
 	}
 }

@@ -21,11 +21,12 @@ public class Pool {
 		sche.addAction(new Swimmer("Charlie", baskets,cubicles,3,6,10));
 		sche.addAction(new Swimmer("Alexis", baskets,cubicles,6,5,7));
 		
-		int nbSteps=0;
+		int nbSteps = 0;
 		while (!sche.isFinished()) {
 			nbSteps++;
 			sche.doStep();
 		}
-		System.out.println("Finished in "+ nbSteps + " steps");
+		
+		System.out.println("Finished in "+ nbSteps + " steps.");
 	}
 }
