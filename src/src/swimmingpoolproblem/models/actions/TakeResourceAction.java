@@ -7,7 +7,7 @@ import src.swimmingpoolproblem.models.resources.ResourcePool;
 import src.swimmingpoolproblem.models.resources.ResourcefulUser;
 
 /**
- * TakeResourceAction is an Action which attempt to take a Resource of the specified type
+ * TakeResourceAction is an Action which attempts to take a Resource of the specified type
  * from a pool used in the constructor and give to the {@link ResourcefulUser}
  * specified in the constructor. <br>
  * The Action is finished when it managed to take a Resource from the pool and assigned it

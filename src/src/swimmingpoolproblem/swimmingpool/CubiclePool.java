@@ -1,4 +1,6 @@
-package src.swimmingpoolproblem.models.resources;
+package src.swimmingpoolproblem.swimmingpool;
+
+import src.swimmingpoolproblem.models.resources.ResourcePool;
 
 public class CubiclePool extends ResourcePool<Cubicle> {
 

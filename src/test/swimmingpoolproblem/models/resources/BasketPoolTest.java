@@ -1,8 +1,8 @@
-package test.swimmingpoolproblem;
+package test.swimmingpoolproblem.models.resources;
 
-import src.swimmingpoolproblem.models.resources.Basket;
-import src.swimmingpoolproblem.models.resources.BasketPool;
 import src.swimmingpoolproblem.models.resources.ResourcePool;
+import src.swimmingpoolproblem.swimmingpool.Basket;
+import src.swimmingpoolproblem.swimmingpool.BasketPool;
 
 public class BasketPoolTest extends ResourcePoolTest<Basket> {
 

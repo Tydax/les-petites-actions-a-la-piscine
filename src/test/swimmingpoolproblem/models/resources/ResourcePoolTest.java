@@ -1,4 +1,4 @@
-package test.swimmingpoolproblem;
+package test.swimmingpoolproblem.models.resources;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package test.swimmingpoolproblem;
+package test.swimmingpoolproblem.models.actions;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;

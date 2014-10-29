@@ -1,4 +1,4 @@
-package test.swimmingpoolproblem;
+package test.swimmingpoolproblem.models.actions.schedulers;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -8,6 +8,7 @@ import org.junit.Test;
 import src.swimmingpoolproblem.models.actions.Action;
 import src.swimmingpoolproblem.models.actions.ForeseeableAction;
 import src.swimmingpoolproblem.models.actions.schedulers.Scheduler;
+import test.swimmingpoolproblem.models.actions.ActionTest;
 
 public abstract class SchedulerTest extends ActionTest {
 
