@@ -1,7 +1,6 @@
 package src.swimmingpoolproblem.swimmingpool;
 
 import src.swimmingpoolproblem.models.actions.Action;
-import src.swimmingpoolproblem.models.actions.ForeseeableAction;
 import src.swimmingpoolproblem.models.actions.FreeResourceAction;
 import src.swimmingpoolproblem.models.actions.TakeResourceAction;
 import src.swimmingpoolproblem.models.actions.schedulers.Scheduler;
@@ -63,15 +62,15 @@ public class Swimmer extends SequentialScheduler {
 		// Go into a cubicle
 		addAction(new TakeResourceAction<Cubicle>(cubicle, mCubicleUser));
 		// Undress
-		addAction(new ForeseeableAction(undress));
+		addAction(new UndressAction(undress));
 		// Free the cubicle
 		addAction(new FreeResourceAction<Cubicle>(cubicle, mCubicleUser));
 		// Swim
-		addAction(new ForeseeableAction(swim));
+		addAction(new SwimAction(swim));
 		// Go into a cubicle
 		addAction(new TakeResourceAction<Cubicle>(cubicle, mCubicleUser));
 		// Dress
-		addAction(new ForeseeableAction(dress));
+		addAction(new DressAction(dress));
 		// Free the cubicle
 		addAction(new FreeResourceAction<Cubicle>(cubicle, mCubicleUser));
 		// Free the basket
@@ -84,5 +83,10 @@ public class Swimmer extends SequentialScheduler {
 	 */
 	public String getName() {
 		return mName;
+	}
+	
+	@Override
+	public String description() {
+		return getName() + "'s turn:\n";
 	}
 }

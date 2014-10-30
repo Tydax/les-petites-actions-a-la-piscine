@@ -14,7 +14,7 @@ public class Cubicle implements Resource {
 
 	@Override
 	public String description() {
-		return "A cubicle to get undress or dress in";
+		return "Cubicle";
 	}
 
 }

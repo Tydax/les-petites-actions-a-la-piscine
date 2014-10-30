@@ -43,5 +43,9 @@ public class FreeResourceAction<R extends Resource> extends Action {
 	public boolean isFinished() {
 		return mUser.getResource() == null;
 	}
-
+	
+	@Override
+	public String description() {
+		return "\tfreeing resource from " + mPool.RESOURCE_DESC.toLowerCase() + " pool...\n";
+	}
 }

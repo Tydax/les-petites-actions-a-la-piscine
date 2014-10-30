@@ -12,7 +12,7 @@ public class Basket implements Resource {
 
 	@Override
 	public String description() {
-		return "Basket containing clothes";
+		return "Basket";
 	}
 
 }

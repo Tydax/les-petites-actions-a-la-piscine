@@ -65,6 +65,7 @@ public abstract class Scheduler extends Action {
 
 	@Override
 	protected void step() throws ActionFinishedException {
+		System.out.print(mCurrAct.description());
 		mCurrAct.doStep();
 
 		// Check if current action is finished to keep our list of actions clean
@@ -83,9 +84,18 @@ public abstract class Scheduler extends Action {
 		return mActions.isEmpty();
 	}
 
+	/**
+	 * Adds an action to the Scheduler, and resets the iterator to the first action.
+	 * @param action The action to add.
+	 */
 	public void addAction(Action action) {
 		mActions.add(action);
 		mIt = mActions.iterator();
 		mCurrAct = mIt.next();
+	}
+	
+	@Override
+	public String description() {
+		return "";
 	}
 }

@@ -17,7 +17,6 @@ public class SequentialSchedulerTest extends SchedulerTest {
 		return new SequentialScheduler(actions); 
 	}
 	
-	
 	@Test
 	public void twoStepSequentialTest() throws Exception {
 		Action a1=new ForeseeableAction(2);

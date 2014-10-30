@@ -27,6 +27,6 @@ public class Pool {
 			sche.doStep();
 		}
 		
-		System.out.println("Finished in "+ nbSteps + " steps.");
+		System.out.println("\nFinished in "+ nbSteps + " steps.");
 	}
 }

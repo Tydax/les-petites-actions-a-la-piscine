@@ -13,6 +13,9 @@ import java.util.NoSuchElementException;
  */
 public abstract class ResourcePool<R extends Resource> {
 
+	/** A description of the resources used by this pool. */
+	public final String RESOURCE_DESC;
+	
 	/** The list of resources which can be taken from the pool. */
 	protected List<R> mAvailableRes;
 	
@@ -29,6 +32,8 @@ public abstract class ResourcePool<R extends Resource> {
 		for (int i = 0; i < nbResources; i++) {
 			mAvailableRes.add(createResource());
 		}
+		
+		RESOURCE_DESC = mAvailableRes.get(1).description();
 	}
 
 	/**

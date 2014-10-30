@@ -36,9 +36,11 @@ public class TakeResourceAction<R extends Resource> extends Action {
 		try {
 			res = mPool.provideResource();
 			mUser.setResource(res);
+			System.out.print("success\n");
 		}
 		catch(NoSuchElementException nseExc) {
 			// Nothing to do with the exception
+			System.out.print("failure\n");
 		}
 	}
 
@@ -47,4 +49,8 @@ public class TakeResourceAction<R extends Resource> extends Action {
 		return mUser.getResource() != null;
 	}
 
+	@Override
+	public String description() {
+		return "\ttrying to take resource from " + mPool.RESOURCE_DESC.toLowerCase() + " pool... ";
+	}
 }

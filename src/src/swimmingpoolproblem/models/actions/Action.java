@@ -51,4 +51,10 @@ public abstract class Action {
 	public ActionState getState() {
 		return mState;
 	}
+	
+	/**
+	 * Returns a description of the Action to use in an user interface (for example).
+	 * @return A String containing a description of the action.
+	 */
+	public abstract String description();
 }
