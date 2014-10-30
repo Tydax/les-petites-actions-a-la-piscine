@@ -51,7 +51,7 @@ public abstract class ResourcePoolTest<R extends Resource> {
 			rs.freeResource(res);
 			assertTrue(true);
 		} catch (IllegalArgumentException e) {
-			fail("Should have not throw an exception at this moment.");
+			fail("Should have not thrown an exception at this moment.");
 		}
 	}
 

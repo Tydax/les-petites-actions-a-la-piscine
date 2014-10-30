@@ -16,10 +16,9 @@ public class ForseeableTest extends ActionTest {
 	
 	@Test
 	public void foreseeableGoodTimeTest() throws Exception {
-		Action action = createAction();
 		for(int i=1;i<=3;i++)
-			action.doStep();
-		assertTrue(action.isFinished());
+			mAction.doStep();
+		assertTrue(mAction.isFinished());
 	}
 
 }

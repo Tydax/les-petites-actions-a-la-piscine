@@ -15,7 +15,7 @@ public class ResourcefulUser<R extends Resource> {
 	protected R mResource;
 
 	public ResourcefulUser() {
-		mResource =null;		
+		mResource = null;		
 	}
 
 	/** 
