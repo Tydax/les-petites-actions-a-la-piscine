@@ -34,7 +34,8 @@ public class FreeResourceAction<R extends Resource> extends Action {
 		}
 		catch (IllegalArgumentException iaeExc)
 		{
-			// In normal case you won't reach an exception
+			// You can’t reach that exception
+			iaeExc.printStackTrace();
 		}
 		
 	}

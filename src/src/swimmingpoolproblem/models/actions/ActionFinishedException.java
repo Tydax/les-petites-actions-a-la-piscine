@@ -1,7 +1,7 @@
 package src.swimmingpoolproblem.models.actions;
 
 /**
- * ActionFinishedException represents an Exception where we are trying to progress an {@link Action}
+ * ActionFinishedException represents an Exception whereone is trying to progress an {@link Action}
  * which is already finished.
  * @author Armand BOUR
  * @author Antoine PETIT

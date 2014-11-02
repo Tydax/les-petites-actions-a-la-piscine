@@ -6,7 +6,7 @@ import src.swimmingpoolproblem.models.actions.Action;
 
 
 /**
- * FairScheduler handles multiple Actions and make them a progress each simultaneously.<br>
+ * FairScheduler handles multiple Actions and makes them progress simultaneously.<br>
  * In a nutshell, FairScheduler takes the first Action in the list, makes it progress when {@link #doStep()}
  * is called, then takes the second Action, makes it progress, and so on.
  * 

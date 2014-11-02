@@ -6,7 +6,7 @@ import java.util.NoSuchElementException;
 
 /**
  * The ResourcePool class describes a pool containing some
- * Resources which can be taken from this pool and then freed back to the pool.
+ * resources which can be taken from this pool and then freed back to the pool.
  * 
  * @author Armand BOUR
  * @author Antoine PETIT

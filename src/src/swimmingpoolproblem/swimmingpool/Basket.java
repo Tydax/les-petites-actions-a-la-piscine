@@ -3,7 +3,7 @@ package src.swimmingpoolproblem.swimmingpool;
 import src.swimmingpoolproblem.models.resources.Resource;
 
 /**
- * The Basket class describes a Basket containing clothes.
+ * The Basket class describes a basket containing clothes.
  * @author Armand BOUR
  * @author Antoine PETIT
  *

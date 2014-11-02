@@ -1,8 +1,8 @@
 package src.swimmingpoolproblem.models.actions;
 
 /**
- * Action class describes an action which progresses as we use the
- * {@link #doStep()} method. 
+ * Action class describes an action which progresses as 
+ * {@link #doStep()} method is called. 
  * @author Armand BOUR
  * @author Antoine PETIT
  */

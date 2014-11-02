@@ -1,31 +1,31 @@
 Camille's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Loïs's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Maé's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Ange's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Louison's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Charlie's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Loïs's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Maé's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (1/6)
 Loïs's turn:
@@ -33,13 +33,13 @@ Loïs's turn:
 Maé's turn:
 	undressing (1/10)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (2/6)
 Loïs's turn:
@@ -47,27 +47,27 @@ Loïs's turn:
 Maé's turn:
 	undressing (2/10)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (3/6)
 Loïs's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Maé's turn:
 	undressing (3/10)
 Ange's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (4/6)
 Loïs's turn:
@@ -77,11 +77,11 @@ Maé's turn:
 Ange's turn:
 	undressing (1/3)
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (5/6)
 Loïs's turn:
@@ -91,11 +91,11 @@ Maé's turn:
 Ange's turn:
 	undressing (2/3)
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	undressing (6/6)
 Loïs's turn:
@@ -105,25 +105,25 @@ Maé's turn:
 Ange's turn:
 	undressing (3/3)
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Loïs's turn:
 	swimming (4/10)
 Maé's turn:
 	undressing (7/10)
 Ange's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Louison's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Charlie's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	swimming (1/4)
 Loïs's turn:
@@ -137,7 +137,7 @@ Louison's turn:
 Charlie's turn:
 	undressing (1/3)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	swimming (2/4)
 Loïs's turn:
@@ -151,7 +151,7 @@ Louison's turn:
 Charlie's turn:
 	undressing (2/3)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	swimming (3/4)
 Loïs's turn:
@@ -165,23 +165,23 @@ Louison's turn:
 Charlie's turn:
 	undressing (3/3)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	swimming (4/4)
 Loïs's turn:
 	swimming (8/10)
 Maé's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Ange's turn:
 	swimming (4/7)
 Louison's turn:
 	undressing (4/18)
 Charlie's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Loïs's turn:
 	swimming (9/10)
 Maé's turn:
@@ -193,7 +193,7 @@ Louison's turn:
 Charlie's turn:
 	swimming (1/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (1/8)
 Loïs's turn:
@@ -207,11 +207,11 @@ Louison's turn:
 Charlie's turn:
 	swimming (2/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (2/8)
 Loïs's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Maé's turn:
 	swimming (3/18)
 Ange's turn:
@@ -221,7 +221,7 @@ Louison's turn:
 Charlie's turn:
 	swimming (3/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (3/8)
 Loïs's turn:
@@ -229,13 +229,13 @@ Loïs's turn:
 Maé's turn:
 	swimming (4/18)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
 	undressing (8/18)
 Charlie's turn:
 	swimming (4/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (4/8)
 Loïs's turn:
@@ -243,13 +243,13 @@ Loïs's turn:
 Maé's turn:
 	swimming (5/18)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
 	undressing (9/18)
 Charlie's turn:
 	swimming (5/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (5/8)
 Loïs's turn:
@@ -257,13 +257,13 @@ Loïs's turn:
 Maé's turn:
 	swimming (6/18)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
 	undressing (10/18)
 Charlie's turn:
 	swimming (6/6)
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (6/8)
 Loïs's turn:
@@ -271,31 +271,31 @@ Loïs's turn:
 Maé's turn:
 	swimming (7/18)
 Ange's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Louison's turn:
 	undressing (11/18)
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (7/8)
 Loïs's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Maé's turn:
 	swimming (8/18)
 Ange's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Louison's turn:
 	undressing (12/18)
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... failure
+trying to take resource from basket pool... failure
 Camille's turn:
 	dressing (8/8)
 Loïs's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Maé's turn:
 	swimming (9/18)
 Ange's turn:
@@ -303,11 +303,11 @@ Ange's turn:
 Louison's turn:
 	undressing (13/18)
 Charlie's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Alexis's turn:
-	trying to take resource from basket pool... success
+trying to take resource from basket pool... success
 Camille's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Maé's turn:
 	swimming (10/18)
 Ange's turn:
@@ -315,11 +315,11 @@ Ange's turn:
 Louison's turn:
 	undressing (14/18)
 Charlie's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Alexis's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Camille's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Maé's turn:
 	swimming (11/18)
 Ange's turn:
@@ -329,7 +329,7 @@ Louison's turn:
 Charlie's turn:
 	dressing (1/10)
 Alexis's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Maé's turn:
 	swimming (12/18)
 Ange's turn:
@@ -339,7 +339,7 @@ Louison's turn:
 Charlie's turn:
 	dressing (2/10)
 Alexis's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Maé's turn:
 	swimming (13/18)
 Ange's turn:
@@ -349,23 +349,23 @@ Louison's turn:
 Charlie's turn:
 	dressing (3/10)
 Alexis's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Maé's turn:
 	swimming (14/18)
 Ange's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Louison's turn:
 	undressing (18/18)
 Charlie's turn:
 	dressing (4/10)
 Alexis's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Maé's turn:
 	swimming (15/18)
 Ange's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Louison's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Charlie's turn:
 	dressing (5/10)
 Alexis's turn:
@@ -395,9 +395,9 @@ Charlie's turn:
 Alexis's turn:
 	undressing (4/6)
 Maé's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
 	dressing (9/10)
 Alexis's turn:
@@ -405,7 +405,7 @@ Alexis's turn:
 Maé's turn:
 	dressing (1/10)
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
 	dressing (10/10)
 Alexis's turn:
@@ -413,17 +413,17 @@ Alexis's turn:
 Maé's turn:
 	dressing (2/10)
 Louison's turn:
-	trying to take resource from cubicle pool... failure
+trying to take resource from cubicle pool... failure
 Charlie's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Alexis's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Maé's turn:
 	dressing (3/10)
 Louison's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Charlie's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Alexis's turn:
 	swimming (1/5)
 Maé's turn:
@@ -447,15 +447,15 @@ Alexis's turn:
 Maé's turn:
 	dressing (7/10)
 Louison's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Alexis's turn:
 	swimming (5/5)
 Maé's turn:
 	dressing (8/10)
 Louison's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Alexis's turn:
-	trying to take resource from cubicle pool... success
+trying to take resource from cubicle pool... success
 Maé's turn:
 	dressing (9/10)
 Alexis's turn:
@@ -465,11 +465,11 @@ Maé's turn:
 Alexis's turn:
 	dressing (2/7)
 Maé's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Alexis's turn:
 	dressing (3/7)
 Maé's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 Alexis's turn:
 	dressing (4/7)
 Alexis's turn:
@@ -479,8 +479,8 @@ Alexis's turn:
 Alexis's turn:
 	dressing (7/7)
 Alexis's turn:
-	freeing resource from cubicle pool...
+freeing resource from cubicle pool...
 Alexis's turn:
-	freeing resource from basket pool...
+freeing resource from basket pool...
 
 Finished in 242 steps.

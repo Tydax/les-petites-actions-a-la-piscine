@@ -6,7 +6,7 @@ import src.swimmingpoolproblem.swimmingpool.BasketPool;
 import src.swimmingpoolproblem.swimmingpool.CubiclePool;
 import src.swimmingpoolproblem.swimmingpool.Swimmer;
 
-public class Pool {
+public class Main {
 
 	public static void main(String[] args) throws ActionFinishedException {
 		BasketPool baskets = new BasketPool(6);

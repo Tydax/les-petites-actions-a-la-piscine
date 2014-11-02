@@ -3,7 +3,7 @@ package src.swimmingpoolproblem.swimmingpool;
 import src.swimmingpoolproblem.models.resources.ResourcePool;
 
 /**
- * BasketPool describes a pool of Basket to use.
+ * BasketPool describes a pool of baskets which can be provided to swimmers.
  * @author Armand BOUR
  * @author Antoine PETIT
  *

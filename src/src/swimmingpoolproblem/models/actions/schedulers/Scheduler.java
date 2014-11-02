@@ -10,7 +10,7 @@ import src.swimmingpoolproblem.models.actions.ActionFinishedException;
 import src.swimmingpoolproblem.models.actions.ActionState;
 
 /**
- * The Scheduler class describes a Scheduler which handles multiple Action at a
+ * The Scheduler class describes a Scheduler which handles multiple actions at a
  * time. The way that the Scheduler will handle the different Actions depends on
  * its type.<br>
  * <br>
