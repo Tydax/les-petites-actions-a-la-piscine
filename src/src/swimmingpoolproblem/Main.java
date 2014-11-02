@@ -1,4 +1,4 @@
-package src.swimmingpoolproblem;
+﻿package src.swimmingpoolproblem;
 
 import src.swimmingpoolproblem.models.actions.ActionFinishedException;
 import src.swimmingpoolproblem.models.actions.schedulers.FairScheduler;

@@ -24,6 +24,7 @@ import src.swimmingpoolproblem.models.resources.ResourcefulUser;
  * 		<li>free the cubicle;</li>
  * 		<li>free his basket.</li>
  * </ol>
+ * <br>
  * To modelise these actions, the Swimmer class uses the {@link Resource}, {@link ResourcePool},
  * {@link Action}, and {@link Scheduler} models created.
  * @author Armand BOUR

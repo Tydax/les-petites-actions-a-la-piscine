@@ -26,18 +26,9 @@ public class FreeResourceAction<R extends Resource> extends Action {
 	}
 	
 	@Override
-	protected void step() throws ActionFinishedException {
-		try
-		{
-			mPool.freeResource(mUser.getResource());
-			mUser.resetResource();
-		}
-		catch (IllegalArgumentException iaeExc)
-		{
-			// You can’t reach that exception
-			iaeExc.printStackTrace();
-		}
-		
+	protected void step() throws ActionFinishedException, IllegalArgumentException {
+		mPool.freeResource(mUser.getResource());
+		mUser.resetResource();
 	}
 
 	@Override
